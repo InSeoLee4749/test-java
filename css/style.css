@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul,
+li {
+    list-style: none;
+}
+a {
+    color: #222;
+    text-decoration: none;
+}
+a:hover {
+    color: red; /* 주어진 주조색 */
+}
+
+.rel {
+    position: relative;
+}
+.abs {
+    position: absolute;
+}
+.d-flex {
+    display: flex;
+}
+.jcc {
+    justify-content: center;
+}
+.jcb {
+    justify-content: space-between;
+}
+.aic {
+    align-items: center;
+}
+
+.d-block {
+    display: block;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.h100 {
+    height: 100px;
+}
+
+#hd {
+    background-color: rgb(94, 247, 80);
+}
+
+.d1a {
+    font-size: 25px;
+    padding: 0 20px;
+}
+
+.d2ul {
+    font-size: 20px;
+    overflow: hidden;
+    height: 0;
+    transition: 0.5s;
+    background-color: rgb(175, 233, 39);
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.d2ul li {
+    line-height: 35px;
+}
+
+#gnb > li:hover > .d2ul {
+    height: 180px;
+}
